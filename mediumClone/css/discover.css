@@ -1,0 +1,42 @@
+.headlines{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.headline{
+    width:63%;
+}
+.discover-section{
+    height:220px;
+    width:30%;
+    position:sticky;
+    top:130px;
+}
+.discover-buttons{
+    margin:14px 0;
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.discover-button{
+    font-weight :540;
+    border:0;
+    padding:15px;
+    border-radius:25px;
+}
+.see-more-topic{
+    text-decoration: none;
+    font-size:15px;
+}
+.see-more-topic:link{
+    color:green;
+}
+.see-more-topic:visited{
+    color:green;
+}
+.see-more-topic:hover{
+    color:black;
+}
+.discover-heading{
+    font-weight :540;
+}

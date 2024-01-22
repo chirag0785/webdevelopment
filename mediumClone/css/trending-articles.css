@@ -1,0 +1,84 @@
+.trending-articles{
+    margin-top:150px;
+}
+
+.articles-list{
+    font-family:sans-serif;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap:40px;
+}
+.article{
+    width:30%;
+    height:150px;
+    line-height:1.8;
+}
+.article-heading{
+    font-size:14px;
+    font-weight:600;
+}
+.article-content{
+    font-size:18px;
+    font-weight:700;
+    line-height:1.2;
+    margin:10px 0;
+    margin-left:40px;
+}
+.publish-date{
+    font-size:12px;
+    color:rgb(117, 114, 114);
+    margin-left:40px;
+}
+
+.time-to-read{
+    position:relative;
+    bottom:23px;
+    left:61px;
+}
+.img{
+    border:0;
+    border-radius:10px;
+    width:25px;
+    height:25px;
+}
+.article-img-1{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/1*WElQ3rpTV_htXtWGMsP9Cg.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-img-2{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/1*SnWQP0l4Vg9577WAErbjfw.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-img-3{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/1*Ca_QnhuA4ImUPxHNcE7Mcw.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-img-4{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/1*t1v0ejp6JihrAnAB9o5SEA.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-img-5{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/1*ifG4msqzs8x1wQxrsjbIqQ.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.article-img-6{
+    background-image: url('https://miro.medium.com/v2/resize:fill:110:110/2*rYxmtnMlMLrGyIc30itIvw.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.trendy-article-header{
+    display: flex;
+    gap:10px;
+    align-items:center;
+}
+.article-number{
+    font-size:28px;
+    color:rgb(215, 211, 211);
+}

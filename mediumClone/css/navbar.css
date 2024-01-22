@@ -1,0 +1,54 @@
+.navbar{
+    height:80px;
+    border:1px solid black;
+    display:flex;
+    justify-content:space-around;
+    background-color: #FFC017;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:10;
+}
+.nav-logo{
+    width:200px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    border:1px solid #FFC017;
+    width:500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-image{
+    width:80%;
+    height:40%;
+    background-image: url('https://imgs.search.brave.com/doj-fMBGpzy-T4Vk7Zxe7YyvgTqX7wx2cVcToxbgkkQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzBkL01lZGl1bV8o/d2Vic2l0ZSlfbG9n/by5zdmc.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-items{
+    font-size:20px;
+    height:25px;
+    text-decoration: none;
+}
+.get-started{
+    height:30px;
+    width:90px;
+    background-color: black;
+    color:white;
+    border:0px;
+    border-radius: 15px;
+}
+.nav-items:link{
+    color:black;
+}
+.nav-items:visited{
+    color:black;
+}
+.get-started:hover{
+    cursor:pointer;
+}

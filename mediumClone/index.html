@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone FrontEnd</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            
+        }
+        .container{
+            width:1200px;
+            margin:auto;
+            height:500px;
+            margin-top:90px;
+            font-family:sans-serif;
+         }
+         .yellow-container{
+            position:absolute;
+            top:0;
+            left:0;
+            height:550px;
+            border:1px solid black;
+            width:100%;
+            background-color:#FFC017;
+            z-index:-1;
+         }
+    </style>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/trending-articles.css">
+    <link rel="stylesheet" href="css/discover.css">
+    <link rel="stylesheet" href="css/headline.css">
+</head>
+<body>
+    <!-- NAVBAR starts -->
+        <nav class="navbar">
+            <div class="nav-logo">
+                <div class="nav-image"></div>
+            </div>
+            <div class="nav-links">
+                <a class="nav-items" href="#">Our Story</a>
+                <a class="nav-items" href="#">Membership</a>
+                <a class="nav-items" href="#">Write</a>
+                <a class="nav-items" href="#">Sign in</a>
+                <button class="get-started">Get Started</button>
+            </div>
+        </nav>
+    <!-- Navbar ends -->
+
+
+
+
+    <!--yellow container starts  -->
+    <div class="yellow-container"></div>
+    <!-- yellow container ends -->
+
+
+
+
+
+    <!-- Container Starts -->
+    <div class="container">
+
+
+        <!-- Carousel Starts -->
+        <div class="carousel">
+            <h1 class="carousel-heading">Stay curious.</h1>
+            <div class="carousel-text">Discover stories, thinking, and expertise from writers on any topic.</div>
+            <button class="start-reading">Start Reading</button>
+        </div>
+        <!-- Carousel ends -->
+
+
+        <div class="trending-articles">
+            <div>
+                <div style="font-weight:600; font-size:18px;">Trending on Medium</div>
+            </div>
+            <div class="articles-list">
+                <div class="article article-1">
+                    <div class="trendy-article-header">
+                        <div class="article-number">01</div>
+                        <div class="img article-img-1"></div>
+                        <div class="article-heading">Barr Moses</div>
+                    </div>
+                    <div class="article-content">Top 10 Data & AI Trends for 2024</div>
+                    <div class="publish-date">Jan 19
+                        <ul class="time-to-read">
+                            <li>6 min read</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article article-2">
+                    <div class="trendy-article-header">
+                        <div class="article-number">02</div>
+                        <div class="img article-img-2"></div>
+                        <div class="article-heading">Tomaz Bratanic in Towards Data Science</div>
+                    </div>
+                    <div class="article-content">Enhancing Interaction between Language Models and Graph...</div>
+                    <div class="publish-date">Jan 19
+                        <ul class="time-to-read">
+                            <li>11 min read</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article article-3">
+                    <div class="trendy-article-header">
+                        <div class="article-number">03</div>
+                        <div class="img article-img-3"></div>
+                        <div class="article-heading">Dr. Jason Fung</div>
+                    </div>
+            
+                <div class="article-content">The Body's Fat Thermostat Part 1</div>
+                <div class="publish-date">Jan 18
+                    <ul class="time-to-read">
+                        <li>6 min read</li>
+                    </ul>
+                </div></div>
+                <div class="article article-4">
+                    <div class="trendy-article-header">
+                        <div class="article-number">04</div>
+                        <div class="img article-img-4"></div>
+                        <div class="article-heading">Sean Kernan in ILLUMINATION-Curated</div>
+                    </div>
+                    <div class="article-content">On the Regrets of Being a Parent</div>
+                    <div class="publish-date">Jan 18
+                        <ul class="time-to-read">
+                            <li>6 min read</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article article-5">
+                    <div class="trendy-article-header">
+                        <div class="article-number">05</div>
+                        <div class="img article-img-5"></div>
+                        <div class="article-heading">Enrique Dans</div>
+                    </div>
+                    <div class="article-content">It’s hard to admit, but sometimes, technology isn’t the answer, as the self</div>
+                    <div class="publish-date">Jan 19
+                        <ul class="time-to-read">
+                            <li>3 min read</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="article article-6">
+                    <div class="trendy-article-header">
+                        <div class="article-number">06</div>
+                        <div class="img article-img-6"></div>
+                        <div class="article-heading">Allen Helton in Level Up Coding</div>
+                    </div>
+                    <div class="article-content">Building For Interactivity:When Async Is Not Enough</div>
+                    <div class="publish-date">Jan 19
+                        <ul class="time-to-read">
+                            <li>9 min read</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div class="headlines">
+            <div class="headline">
+                <div class="headline-content headline-content-1">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-1"></div>
+                            <div class="child-1">Michelle Wiles in Embedded Brand Strategy</div>
+                        </div>
+                        <div class="child-2">Stanley hype and Samba cringe: Why products fall in and out of style</div>
+                        <div class="child-3">Do I really want the Stanley cup? Or do I want it because everyone else wants it?</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 17</div>
+                            <ul class="time">
+                                <li>7 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">Marketing</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-1"></div>
+                </div>
+                <div class="headline-content headline-content-2">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-2"></div>
+                            <div class="child-1">Prof Bill Buchanan OBE in ASecuritySite: When Bob Met Alice</div>
+                        </div>
+                        <div class="child-2">Is Barbie’s Password ‘uiff;rnl’?</div>
+                        <div class="child-3">Can’t wait to crack the Barbie cipher? Try here.</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 13</div>
+                            <ul class="time">
+                                <li>3 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">Cryptography</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-2"></div>
+                </div>
+                <div class="headline-content headline-content-3">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-3"></div>
+                            <div class="child-1">
+                                Ida Persson in UX Collective</div>
+                        </div>
+                        <div class="child-2">If you want to be creative, you can’t be certain</div>
+                        <div class="child-3">Embracing ambiguity as a superpower.</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 17</div>
+                            <ul class="time">
+                                <li>4 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">Creativity</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-3"></div>
+                </div>
+                <div class="headline-content headline-content-4">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-4"></div>
+                            <div class="child-1">Jack Shepherd in Cellar Door</div>
+                        </div>
+                        
+                        <div class="child-2">The Astonishing Origins of 6 Common Compound Words</div>
+                        <div class="child-3">The “Cob” in “Cobweb,” the “Hodge” in “Hodgepodge,” and more lovely old oddities that still cling to life in compounds.</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 18</div>
+                            <ul class="time">
+                                <li>6 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">History</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-4"></div>
+                </div>
+                <div class="headline-content headline-content-5">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-5"></div>
+                            <div class="child-1">Tom Zimberoff</div>
+                        </div>
+                        
+                        <div class="child-2">At Skywalker Ranch We Were</div>
+                        <div class="child-3">A Photoshoot with George Lucas & Yoda</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 8</div>
+                            <ul class="time">
+                                <li>14 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">Photography</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-5"></div>
+                </div>
+                <div class="headline-content headline-content-6">
+                    <div class="text-content">
+                        <div class="headline-header">
+                            <div class="img-header img-header-6"></div>
+                            <div class="child-1">Michelle Wiles in Embedded Brand Strategy</div>
+                        </div>
+                        
+                        <div class="child-2">Stanley hype and Samba cringe: Why products fall in and out of style</div>
+                        <div class="child-3">Do I really want the Stanley cup? Or do I want it because everyone else wants it?</div>
+                        <div class="headline-footer">
+                            <div class="date">Jan 17</div>
+                            <ul class="time">
+                                <li>7 min read</li>
+                            </ul>
+                            <ul class="headline-button">
+                                <li><button class="buttons">Marketing</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="img-content img-content-6"></div>
+                </div>
+            </div>
+            <div class="discover-section">
+                <div class="discover-heading">
+                    Discover more of what matters to you
+                </div>
+                <div class="discover-buttons">
+                    <button class="discover-button">Programming</button>
+                    <button class="discover-button">Data Science</button>
+                    <button class="discover-button">Technology</button>
+                    <button class="discover-button">Self Improvement</button>
+                    <button class="discover-button">Writing</button>
+                    <button class="discover-button">Relationships</button>
+                    <button class="discover-button">Machine Learning</button>
+                    <button class="discover-button">Productivity</button>
+                    <button class="discover-button">Politics</button>
+                </div>
+                <div class="see-more">
+                    <a href="#" class="see-more-topic">See more topics</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container ends -->
+</body>
+</html>
